@@ -1,0 +1,421 @@
+
+/* ---------------------------------------------------------------- */
+/* Default Color Option
+/* ---------------------------------------------------------------- */
+
+::-moz-selection {
+  background: #265bfb;
+}
+
+::selection {
+  background: #265bfb;
+}
+
+
+.inner-header-title:before {
+  background: #265bfb;
+}
+
+.custom-bg-primary {
+  background: #265bfb;
+}
+
+.primary-button {
+  border: 1px solid #265bfb;
+}
+
+.primary-button:after {
+  background: #265bfb;
+}
+
+.scroll-top-btn {
+  background: #265bfb;
+}
+
+.scroll-top-btn:hover {
+  background: #265bfb;
+}
+
+.whatsapp-btn {
+  background: #265bfb;
+}
+
+.facebook-btn {
+  background: #265bfb;
+}
+
+.comments-wrap .comments-item-wrap .comments-item .comment-header a {
+  color: #265bfb;
+}
+
+.custom-modal .modal-content .modal-header {
+  background: #265bfb;
+}
+
+.custom-modal .modal-content .modal-body .popup-form-group > span {
+  color: #265bfb;
+}
+
+.preloader-wrap {
+  background: #265bfb;
+}
+
+.pagination-wrap .pagination-link {
+  border: 1px solid #265bfb;
+}
+
+.pagination-wrap .pagination-link:hover, .pagination-wrap .pagination-link.active {
+  background: #265bfb;
+}
+
+.header .dropdown-menu .dropdown-item:hover {
+  background: #265bfb;
+  border-bottom-color: #265bfb;
+}
+
+.header.header-shrink .navbar-top {
+  background: #265bfb;
+}
+
+.header.header-shrink .navbar-btn .default-button {
+  border-color: #265bfb;
+}
+
+.header.header-shrink .navbar-btn .default-button:hover::after {
+  background: #265bfb;
+}
+
+.header.header-shrink .nav-item .nav-link.active {
+  color: #265bfb;
+}
+
+.header.header-shrink .nav-item .nav-link.active:after {
+  background: #265bfb;
+}
+
+.header.header-shrink .nav-item:hover .nav-link {
+  opacity: 1;
+  color: #265bfb;
+}
+
+.header.header-shrink .nav-item:hover .nav-link:after {
+  background: #265bfb;
+}
+
+@media only screen and (max-width: 991.98px) {
+
+  .header .main-menu .navbar-nav .navbar-btn .default-button {
+    border-color: #265bfb;
+
+  }
+  .header .main-menu .navbar-nav .navbar-btn .default-button:after {
+    background: #265bfb;
+  }
+
+  .header .main-menu .navbar-nav .nav-link.active {
+    background: #265bfb;
+    border-color: #265bfb;
+  }
+  .header .main-menu .navbar-nav .nav-link:not(.active):hover {
+    background: #265bfb;
+    border-color: #265bfb;
+  }
+
+  .header .main-menu .dropdown-menu .dropdown-item:hover {
+    background: #265bfb;
+  }
+}
+
+#home:after {
+  background: #265bfb;
+}
+
+.services-item:hover {
+  background: #265bfb;
+}
+
+.services-item:hover .services-icon i {
+  color: #265bfb;
+}
+
+.services-item .services-icon {
+  border-right: 5px dashed #265bfb;
+  border-bottom: 5px solid #265bfb;
+}
+
+.services-item .services-icon i {
+  background: #265bfb;
+}
+
+.about-content-inner ul li::before {
+  color: #265bfb;
+}
+
+.feautures-box .icon {
+  border-right: 5px dashed #265bfb;
+  border-bottom: 5px solid #265bfb;
+}
+
+.feautures-box .icon span {
+  background: #265bfb;
+}
+
+#counters:after {
+  background: #265bfb;
+}
+
+.counter-item:hover i {
+  color: #265bfb;
+}
+
+.how-it-work-img:after {
+  background: #265bfb;
+}
+
+.how-it-work-img .video-btn-wrap .video-button i {
+  color: #265bfb;
+}
+
+.how-it-work-item .how-it-work-icon {
+  border-right: 5px dashed #265bfb;
+  border-bottom: 5px solid #265bfb;
+}
+
+.how-it-work-item .how-it-work-icon i {
+  background: #265bfb;
+}
+
+#screenshot .owl-theme .owl-dots .owl-dot span {
+  border: 2px solid #265bfb;
+}
+
+#screenshot .owl-theme .owl-dots .owl-dot.active span {
+  background: #265bfb !important;
+}
+
+.price-table.active {
+  background: #265bfb;
+}
+
+.price-table.active .price-badge {
+  color: #265bfb;
+}
+
+.price-table:hover {
+  background: #265bfb;
+}
+
+.price-table:hover .price-badge {
+  color: #265bfb;
+}
+
+.price-table:hover .price-icon i {
+  color: #265bfb;
+}
+
+
+.price-table .default-button {
+  border-color: #265bfb;
+}
+
+.price-table .price-badge {
+  background: #265bfb;
+}
+
+.price-table .price-badge:after {
+  border-color: #265bfb transparent #265bfb #265bfb;
+}
+
+.price-table .price-icon {
+  border-right: 5px dashed #265bfb;
+  border-bottom: 5px solid #265bfb;
+}
+
+.price-table .price-icon i {
+  background: #265bfb;
+}
+
+#pricing .owl-theme .owl-dots .owl-dot span {
+  border: 2px solid #265bfb;
+}
+
+#pricing .owl-theme .owl-dots .owl-dot.active span {
+  background: #265bfb !important;
+}
+
+#testimonials:after {
+  background: #265bfb;
+}
+
+.testimonials-item .testimonials-header {
+  border-right: 5px dashed #265bfb;
+  border-bottom: 5px solid #265bfb;
+}
+
+.testimonials-item .testimonials-body span {
+  color: #265bfb;
+}
+
+.testimonials-item .testimonials-body .testimonial-rating i {
+  color: #265bfb;
+}
+
+.review-rating-list li.active a i {
+  color: #265bfb;
+}
+
+.team-card .team-img {
+  border-right: 5px dashed #265bfb;
+  border-bottom: 5px solid #265bfb;
+}
+
+.team-card .team-social a {
+  background: #265bfb;
+}
+
+#team .owl-theme .owl-dots .owl-dot span {
+  border: 2px solid #265bfb;
+}
+
+#team .owl-theme .owl-dots .owl-dot.active span {
+  background: #265bfb !important;
+}
+
+.accordion-item .accordion-item-header a i {
+  color: #265bfb;
+}
+
+.accordion-item .accordion-item-header a:after {
+  color: #265bfb;
+}
+
+.accordion-item .accordion-item-header a[aria-expanded="true"] {
+  background: #265bfb;
+}
+
+.blog-item .blog-body .blog-meta a i {
+  color: #265bfb;
+}
+
+.blog-item .blog-body .blog-meta a:hover {
+  color: #265bfb;
+}
+
+.blog-item .blog-body h5 a:hover {
+  color: #265bfb;
+}
+
+.blog-item .blog-body .default-link {
+  border: 1px solid #265bfb;
+}
+
+.blog-item .blog-body .default-link:after {
+  background: #265bfb;
+}
+
+#latestblog .owl-theme .owl-dots .owl-dot span {
+  border: 2px solid #265bfb;
+}
+
+#latestblog .owl-theme .owl-dots .owl-dot.active span {
+  background: #265bfb !important;
+}
+
+.contact-info-box .icon {
+  border-right: 5px dashed #265bfb;
+  border-bottom: 5px solid #265bfb;
+}
+
+.contact-info-box .icon span {
+  background: #265bfb;
+}
+
+#subscribe-form {
+  background: #265bfb;
+  z-index: 6;
+  position: relative;
+}
+
+.newsletter-form-group .newsletter-button {
+  background: #265bfb;
+}
+
+.footer .footer-top .footer-widget .footer-social-links a:hover {
+  background: #265bfb;
+}
+
+.breadcrumb-section:after {
+  background: #265bfb;
+}
+
+.blog-sidebar .blog-widgets .blog-search-btn {
+  background: #265bfb;
+}
+
+.blog-sidebar .recent-post-item .recent-post-body .recent-post-title:hover {
+  color: #265bfb;
+}
+
+.blog-sidebar .recent-post-item .recent-post-body .recent-post-date i {
+  color: #265bfb;
+}
+
+.blog-sidebar .blog-category-list li:before {
+  color: #265bfb;
+}
+
+.blog-sidebar .blog-category-list li a:hover, .blog-sidebar .blog-category-list li a.active {
+  color: #265bfb;
+}
+
+.blog-sidebar .blog-tags li a:hover, .blog-sidebar .blog-tags li a.active {
+  background: #265bfb;
+}
+
+.blog-single-inner .blog-meta span i {
+  color: #265bfb;
+}
+
+.blog-single-inner .blog-post-quote blockquote {
+  border-left: 5px solid #265bfb;
+}
+
+.blog-single-inner .blog-post-quote blockquote p:after {
+  color: #265bfb;
+}
+
+.hero-slider-wrap .vegas-overlay {
+  background: #265bfb;
+}
+
+.hero-ripless-banner:after {
+  background: #265bfb;
+}
+
+.hero-particles-banner:after {
+  background: #265bfb;
+}
+
+.hero-glitch-banner .overlay-glitch {
+  background: #265bfb;
+}
+
+.hero-preview-banner .scroll-down .scroll-down-demo-btn {
+  color: #265bfb;
+}
+
+.hero-preview-banner .scroll-down .scroll-down-demo-btn:hover {
+  background: #265bfb;
+}
+
+.demo-item .demo-title:hover {
+  background: #265bfb;
+}
+
+.demo-item .demo-overlay .demo-link:hover i {
+  background: #265bfb;
+}
+
+.demo-item .demo-overlay .demo-link i {
+  color: #265bfb;
+}

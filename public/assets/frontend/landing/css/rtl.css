@@ -1,0 +1,451 @@
+/* ---------------------------------------------------------------- */
+/* HELPER CLASS                                                     
+/* ---------------------------------------------------------------- */
+.rtl-mode .inner-header-title:after, .rtl-mode .inner-header-title:before {
+  left: initial;
+  right: 0;
+}
+
+/* ---------------------------------------------------------------- */
+/* BUTTONS                                                     
+/* ---------------------------------------------------------------- */
+.rtl-mode .primary-button:after {
+  right: 0;
+  left: initial;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+.rtl-mode .primary-button:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.rtl-mode .default-button:after {
+  right: 0;
+  left: initial;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+.rtl-mode .default-button:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.rtl-mode .scroll-top-btn {
+  right: initial;
+  left: 10px;
+}
+
+.rtl-mode .whatsapp-btn {
+  right: initial;
+  left: 10px;
+}
+
+.rtl-mode .facebook-btn {
+  right: initial;
+  left: 10px;
+}
+
+/* ---------------------------------------------------------------- */
+/* HEADER
+/* ---------------------------------------------------------------- */
+.rtl-mode {
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl-mode .header .navbar-btn {
+  margin-left: 0;
+  margin-right: 30px;
+}
+
+.rtl-mode .header .dropdown-menu {
+  text-align: right;
+  right: 0;
+  left: initial;
+}
+
+.rtl-mode .header .dropdown-menu .dropdown-item {
+  text-align: right;
+}
+
+.rtl-mode .header .nav-link.active:after {
+  left: initial;
+  right: 0;
+}
+
+.rtl-mode .header .nav-link:not(.active):after {
+  left: initial;
+  right: 0;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+.rtl-mode .header .nav-link:not(.active):hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.rtl-mode .header .navbar-toggler {
+  padding: 0 10px 0 10px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Responsive Media Query (less than 992px)
+/* ---------------------------------------------------------------- */
+@media only screen and (max-width: 991.98px) {
+  .rtl-mode .header .navbar-brand {
+    padding: 10px 15px 10px 0;
+  }
+  .rtl-mode .header .main-menu .navbar-nav .navbar-btn {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+  .rtl-mode .header .main-menu .navbar-nav .navbar-btn .default-button:after {
+    right: 0 !important;
+    left: initial !important;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
+  .rtl-mode .header .main-menu .navbar-nav .navbar-btn .default-button:hover:after {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
+  .rtl-mode .header .dropdown-toggle:before {
+    right: initial !important;
+    left: 20px !important;
+  }
+}
+
+/* ---------------------------------------------------------------- */
+/* HERO
+/* ---------------------------------------------------------------- */
+.rtl-mode .banner-wrap .banner-right {
+  text-align: left !important;
+}
+
+/* ---------------------------------------------------------------- */
+/* ABOUT                         
+/* ---------------------------------------------------------------- */
+.rtl-mode .about-content-inner ul li::before {
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+/* ---------------------------------------------------------------- */
+/* FEATURES                        
+/* ---------------------------------------------------------------- */
+.rtl-mode .feautures-box .icon {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+/* ---------------------------------------------------------------- */
+/* COUNTERS                        
+/* ---------------------------------------------------------------- */
+.rtl-mode .feautures-box .icon {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+/* ---------------------------------------------------------------- */
+/* HOW IT WORKS                       
+/* ---------------------------------------------------------------- */
+.rtl-mode .how-it-work-item .how-it-work-icon {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.rtl-mode .how-it-work-img .video-btn-wrap .video-button i {
+  padding-left: 0;
+}
+
+.rtl-mode .how-it-work-img .video-btn-wrap .video-button i:before {
+  display: inline-block;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+  -webkit-transform: perspective(1000px) rotateY(180deg) translateX(-24px);
+          transform: perspective(1000px) rotateY(180deg) translateX(-24px);
+}
+
+/* ---------------------------------------------------------------- */
+/* PRICING                    
+/* ---------------------------------------------------------------- */
+.rtl-mode .price-table .price-badge {
+  top: 0;
+  right: -3px;
+  padding: 10px;
+}
+
+/* ---------------------------------------------------------------- */
+/* TEAM                    
+/* ---------------------------------------------------------------- */
+.rtl-mode .team-card .team-social a {
+  margin-right: 5px;
+}
+
+.rtl-mode .team-card .team-social a:first-child {
+  margin-right: 0;
+}
+
+/* ---------------------------------------------------------------- */
+/* FAQ                    
+/* ---------------------------------------------------------------- */
+.rtl-mode .accordion-item .accordion-item-header a {
+  padding: 20px 30px 20px 60px;
+}
+
+.rtl-mode .accordion-item .accordion-item-header a i {
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+.rtl-mode .accordion-item .accordion-item-header a:after {
+  left: 30px;
+  right: initial;
+}
+
+/* ---------------------------------------------------------------- */
+/* BLOG                    
+/* ---------------------------------------------------------------- */
+.rtl-mode .blog-item .blog-body .blog-meta a {
+  margin-left: 10px;
+  margin-right: initial;
+}
+
+.rtl-mode .blog-item .blog-body .blog-meta a i {
+  color: #265bfb;
+  margin-right: 0 !important;
+  margin-left: 0.5rem !important;
+}
+
+.rtl-mode .blog-item .blog-body .blog-meta a:last-child {
+  margin-left: 0;
+}
+
+.rtl-mode .blog-item .blog-body .default-link i {
+  margin-left: 0 !important;
+  margin-right: 0.5rem !important;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.rtl-mode .blog-item .blog-body .default-link:after {
+  right: 0;
+  left: initial;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+.rtl-mode .blog-item .blog-body .default-link:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+/* ---------------------------------------------------------------- */
+/* CONTACT                    
+/* ---------------------------------------------------------------- */
+.rtl-mode .contact-info-box .icon {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/* ---------------------------------------------------------------- */
+/* NEWSLETTER                    
+/* ---------------------------------------------------------------- */
+.rtl-mode .newsletter-form-control {
+  padding: 25px 25px 25px 75px;
+}
+
+.rtl-mode .newsletter-form-group .newsletter-button {
+  right: initial;
+  left: 9px;
+}
+
+.rtl-mode .download-box .holder-link a {
+  margin-right: 0 !important;
+  margin-left: 1rem !important;
+}
+
+.rtl-mode .download-box .holder-link a:last-child {
+  margin-left: 0 !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .rtl-mode .download-box .holder-link a {
+    margin-left: 0 !important;
+  }
+}
+
+/* ---------------------------------------------------------------- */
+/* FOOTER                    
+/* ---------------------------------------------------------------- */
+.rtl-mode .footer .footer-top .footer-widget .footer-social-links a {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.rtl-mode .footer .footer-top .footer-widget .footer-social-links a:last-child {
+  margin-left: 0;
+}
+
+.rtl-mode .footer .footer-top .footer-widget .footer-contact-info-list li i {
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+.rtl-mode .footer .footer-top .footer-widget .footer-links li:before {
+  margin-left: 15px;
+  margin-right: 0;
+}
+
+.rtl-mode .footer .footer-top .footer-widget-pl {
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Responsive Media Query (less than 992px)
+/* ---------------------------------------------------------------- */
+@media only screen and (max-width: 991.98px) {
+  .rtl-mode .footer .footer-top .footer-widget-pl {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* ---------------------------------------------------------------- */
+/* BREADCRUMB                                                     
+/* ---------------------------------------------------------------- */
+.rtl-mode .breadcrumb-section .breadcrumb-content .breadcrumb-links li.breadcrumb-link:after {
+  margin-right: 10px;
+  margin-left: 10px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+/* ---------------------------------------------------------------- */
+/* SIDEBAR                                                     
+/* ---------------------------------------------------------------- */
+.rtl-mode .blog-sidebar .blog-widgets .blog-search-btn {
+  right: initial;
+  left: 0;
+}
+
+.rtl-mode .blog-sidebar .blog-widgets .blog-search-bar .search-form-control {
+  padding: 18px 20px 18px 70px;
+}
+
+.rtl-mode .blog-sidebar .recent-post-item .recent-post-img {
+  float: right;
+  margin-right: 0 !important;
+  margin-left: 1rem !important;
+}
+
+.rtl-mode .blog-sidebar .recent-post-item .recent-post-body .recent-post-date i {
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+.rtl-mode .blog-sidebar .blog-category-list li:before {
+  margin-right: 0;
+  margin-left: 10px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.rtl-mode .blog-sidebar .blog-category-list li a .category-count {
+  float: left;
+}
+
+.rtl-mode .blog-sidebar .blog-tags li {
+  float: right;
+}
+
+/* ---------------------------------------------------------------- */
+/* BLOG SINGLE                                                     
+/* ---------------------------------------------------------------- */
+.rtl-mode .blog-single-inner .blog-meta span {
+  display: inline-block;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.rtl-mode .blog-single-inner .blog-meta span:last-child {
+  margin-left: 0;
+}
+
+.rtl-mode .blog-single-inner .blog-meta span i {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.rtl-mode .blog-single-inner .blog-post-quote blockquote {
+  border-left: 0;
+  border-right: 5px solid #265bfb;
+}
+
+.rtl-mode .blog-single-inner .blog-post-quote blockquote p:after {
+  left: initial;
+  right: 0;
+}
+
+/* ---------------------------------------------------------------- */
+/* PAGINATION                                                     
+/* ---------------------------------------------------------------- */
+.rtl-mode .pagination-wrap .pagination-link {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.rtl-mode .pagination-wrap .pagination-link i {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.rtl-mode .pagination-wrap .pagination-link:last-child {
+  margin-left: 0;
+}
+
+/* ---------------------------------------------------------------- */
+/* COMMENTS                                                     
+/* ---------------------------------------------------------------- */
+.rtl-mode .comments-wrap .comments-item-wrap .comments-item .comment-header a i {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.rtl-mode .comments-wrap .comments-item-wrap .comments-item img {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.rtl-mode .comments-wrap .comments-item-wrap .comments-item.sub-comment {
+  padding-left: 0;
+  padding-right: 120px;
+}
+
+.rtl-mode .comments-wrap .comments-item-wrap:last-child {
+  margin-bottom: 0;
+}
+
+.rtl-mode .custom-modal .modal-content .modal-header .close {
+  float: initial;
+  float: right;
+  margin: -1rem auto -1rem -1rem;
+}
+/*# sourceMappingURL=rtl.css.map */
